@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/panghu"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="409dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp">
+    <TableRow>
+
+        <Button
+            android:id="@+id/button2_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="作业2-1" />
+
+
+        <Button
+            android:id="@+id/button2_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="作业2-2" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/button3_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="作业3" />
+    </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/button4_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="作业4" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/button5_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="作业5" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/button6_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="test6_1"
+                android:text="作业6" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/button7_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="login_7_1"
+                android:text="作业7" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/button8_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="login_8_1"
+                android:text="作业8" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints" />
+
+</android.support.constraint.ConstraintLayout>
